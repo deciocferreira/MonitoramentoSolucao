@@ -19,7 +19,7 @@ namespace QueroSolucao
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            //Coletor de métricas 
+            //Coletor de mÃ©tricas 
             Collector = CreateCollector();
         }
 
@@ -27,13 +27,13 @@ namespace QueroSolucao
 
         public static IDisposable Collector;
 
-        // Método para adicionar servidos ao container.
+        // MÃ©todo para adicionar serviÃ§os ao container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
         }
 
-        // Método para configurar solicitações HTTP.
+        // MÃ©todo para configurar solicitaÃ§Ãµes HTTP.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -47,7 +47,7 @@ namespace QueroSolucao
                 app.UseHsts();
             }
 
-            //Adição de Endpoints para coleta
+            //AdiÃ§Ã£o de Endpoints para coleta
 
             app.UseHttpMetrics();
 
@@ -67,7 +67,7 @@ namespace QueroSolucao
             });
         }
 
-        //Método que coleta métricas da aplicação
+        //MÃ©todo que coleta mÃ©tricas da aplicaÃ§Ã£o
         public static IDisposable CreateCollector()
         {
             var builder = DotNetRuntimeStatsBuilder.Default();

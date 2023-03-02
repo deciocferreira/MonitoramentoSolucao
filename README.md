@@ -6,9 +6,9 @@ Uma aplicação simples foi concebida em .NET (versão 5.0).
 
 Considero o prometheus como o coração do sistema, onde ele é responsável por ir na aplicação e buscar as métricas de sistema.
 
-O Docker age criando um container para a aplicação e o Prometheus.
+A adição dos Endpoints está centralizada no arquivo **Startaup.cs** do projeto. Para verificar as métricas basta acessar a aplicação(imagem para representar a coleta de métrica do HTTP Status code).
 
-Com isso, Temos a possibilidade de adicionar os Endpoints no arquivos **Startaup.cs** do projeto e depois acessar a aplicação para verificar as métricas.
+Depois de configurado os devidos Endpoints no projeto, podemos criar uma imagem customizada para ser entregue por algum provider de nuvem.
 
 ![image](https://user-images.githubusercontent.com/12403699/222585362-1c214d13-7c13-45f8-bfc5-f4aa9d9b6fa8.png)
 

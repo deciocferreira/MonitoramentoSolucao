@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>82a915ad-6113-4a15-9625-db57c3490f0a</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
+    <PackageReference Include="prometheus-net" Version="5.0.0" />
+    <PackageReference Include="prometheus-net.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="prometheus-net.DotNetRuntime" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>

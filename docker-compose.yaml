@@ -1,0 +1,13 @@
+#Criação da imagem Docker com Prometheus que irá coletar as métricas.
+version: '3.8'
+services:
+ prometheus: 
+  image: prom/prometheus:v2.24.1
+  ports:
+   - "9090:9090" 
+  networks:
+   - website  
+
+networks:
+  website:
+    driver: bridge

@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "d+y0ZrBY+toy5bBru1tY8PKcBjbqc2QcLqos+53hXFsO45R9y5cKUnamL5/oHgdr/QnI5XVAdlUBIKR+hPyl7A==",
+  "success": true,
+  "projectFilePath": "D:\\QueroSolucao\\QueroSolucao\\QueroSolucao\\QueroSolucao.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Decio\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.9\\microsoft.extensions.configuration.3.1.9.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.9\\microsoft.extensions.configuration.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.9\\microsoft.extensions.configuration.binder.3.1.9.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.9\\microsoft.extensions.dependencyinjection.3.1.9.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\microsoft.extensions.http\\3.1.9\\microsoft.extensions.http.3.1.9.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\microsoft.extensions.logging\\3.1.9\\microsoft.extensions.logging.3.1.9.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.9\\microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\microsoft.extensions.options\\3.1.9\\microsoft.extensions.options.3.1.9.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\prometheus-net\\5.0.0\\prometheus-net.5.0.0.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\prometheus-net.aspnetcore\\5.0.0\\prometheus-net.aspnetcore.5.0.0.nupkg.sha512",
+    "C:\\Users\\Decio\\.nuget\\packages\\prometheus-net.dotnetruntime\\4.4.0\\prometheus-net.dotnetruntime.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

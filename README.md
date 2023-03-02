@@ -1,4 +1,4 @@
-# QueroSolucao
+# Quero Solução SRE
 
 Esta solução é baseada em .NET, Prometheus e Docker.
 

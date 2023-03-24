@@ -1,4 +1,4 @@
-# Monitoramento SRE
+# SRE - Monitoramento
 
 Esta solução é baseada em .NET, Prometheus e Docker.
 
